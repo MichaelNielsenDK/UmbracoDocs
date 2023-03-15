@@ -16,6 +16,8 @@ When you create a project on Umbraco Cloud, the generated project URL is based o
 
 {% hint style="info" %}
 Before adding a hostname, you need to update your DNS host domain registrar DNS entries to resolve to `umbraco.io`. We recommend setting a CNAME record for your site using the `dns.umbraco.io` Umbraco Cloud DNS record.
+
+If your DNS registrar do not allow setting a CNAME record for root domains, you can set an A record for the root domain pointing to either 104.19.191.28 or 104.19.208.28
 {% endhint %}
 
 ## [Deploy to Live](../deployment/cloud-to-cloud.md)
